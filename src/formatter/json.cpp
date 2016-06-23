@@ -291,6 +291,8 @@ json_t::json_t(properties_t properties) :
     inner(new inner_t(std::move(properties)))
 {}
 
+json_t::json_t(json_t&& other) noexcept = default;
+
 json_t::~json_t() = default;
 
 auto json_t::newline() const noexcept -> bool {
