@@ -1,3 +1,10 @@
+blackhole (1.0.0-0beta2) unstable; urgency=low
+
+  * Bug fix: define some declared, but undefined move constructors for
+    categories.
+
+ -- Evgeny Safronov <division494@gmail.com>  Thu, 23 Jun 2016 14:43:24 +0300
+
 blackhole (1.0.0-0beta1) unstable; urgency=low
 
   * Break: drop GCC4.6 support.
